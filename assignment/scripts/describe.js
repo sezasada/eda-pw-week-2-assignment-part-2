@@ -151,10 +151,12 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+FIX - the variable time should be - let time = 4;. It is not a constant. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+FIX - Instead of using || we use && because both sides must be true. - if (temp > 39 && time >= 4) { console.log('throw away the food!'); }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
