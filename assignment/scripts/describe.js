@@ -151,7 +151,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-// FIX - Because both temp and time variables remain the same no matter what, they should both be declared as constants. - const temp = 40;
+// FIX - Because both temp and time variables remain the same no matter what, at least in this problem, they should both be declared as constants. - const temp = 40; 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -175,7 +175,7 @@ if(minAge <= age) {
 // FIX - Correction - if(age >= minAge) {
   console.log('enter');
 }
-// FIX - If we are supposed to follow the direction as precice as possible, my code change is correct. age and minAge should be flipped along with the <= sign. no else statement should be included as the directions did not indicate it being neccessary. 
+// FIX - If we are supposed to follow the directions as precise as possible, my code change is correct. age and minAge should be flipped along with the <= sign. no else statement should be included as the directions did not indicate it being neccessary. 
 // However, this code also gives the same result...
 // if(minAge <= age) {
     console.log('enter');
