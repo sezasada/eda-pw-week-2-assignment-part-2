@@ -71,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable isStudent and set its value to true. We create a variable age and set is value to 34. We create a variable zip and set its value to 55407.
+// We create an if/else statement. It states: if isStudent an exact match to the boolean true AND zip has a vale greater than 80000, 'You're a student on the West Coast!' will be logged to the console. 
+// If the variable isStudent is an exact match to the boolean false or the variable age is less than 30, 'What are your hobbies?' will be logged to the console. 
+// If the variable isStudent is an exact match to the boolean true, 'Welcome to Prime!' will be logged to the console.
+// If none of the above conditions are satisfied, 'How about the weather?' will be logged to the console.
 
 //CODE
 /*
