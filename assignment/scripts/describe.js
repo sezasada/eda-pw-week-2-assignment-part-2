@@ -151,12 +151,12 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-FIX - the variable time should be - let time = 4;. It is not a constant. 
+// FIX - Because both temp and time variables remain the same no matter what, they should both be declared as constants. - const temp = 40;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 
-FIX - Instead of using || we use && because both sides must be true. - if (temp > 39 && time >= 4) { console.log('throw away the food!'); }
+// FIX - Instead of using || we use && because both sides must be true. - if (temp > 39 && time >= 4) { console.log('throw away the food!'); }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -166,11 +166,19 @@ FIX - Instead of using || we use && because both sides must be true. - if (temp 
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - I believe age and min age are declared properly becuase the variable age could be changed to any value but minAge can't be changed. Just wanted to share my explanation for not changing anything. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
+// FIX - Correction - if(age >= minAge) {
+  console.log('enter');
+}
+// FIX - If we are supposed to follow the direction as precice as possible, my code change is correct. age and minAge should be flipped along with the <= sign. no else statement should be included as the directions did not indicate it being neccessary. 
+// However, this code also gives the same result...
+// if(minAge <= age) {
+    console.log('enter');
+  } 
 */
 
