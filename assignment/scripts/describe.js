@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
+// We make a variable called name and set it's value to Dane.
+// Then, we create an if/else statement that logs 'Hi, Mary!' only if there is an exact match between the variable - name and 'Mary'.
+// If they are not true, with an exact match, 'How do you do?' will be logged. 
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable - secret and set its value to false. 
+// We create a second variable - code and set its value to 123.
+// We create an if statement, with the condition that the variable code is an exact match to the value 123. The variable secret has the value of the string 'super' and the variable code has the value of (code multiplied 2). 
+// The second if statement's condition says the variable code is greater than 250. The variable secret now has the value of 'duper'.
+// Now we console log the variable secret.
 
 //CODE
 /*
