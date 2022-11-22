@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it's value to Dane.
 // Then, we create an if/else statement that logs 'Hi, Mary!' only if there is an exact match between the variable - name and 'Mary'.
 // If they are not true, with an exact match, 'How do you do?' will be logged. 
-// 
+// Because name is not equal to 'Mary', we console.log('How do you do?').
 
 //CODE
 /*
@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // We create a second variable - code and set its value to 123.
 // We create an if statement, with the condition that the variable code is an exact match to the value 123. The variable secret has the value of the string 'super' and the variable code has the value of (code multiplied 2). 
 // The second if statement's condition says the variable code is greater than 250. The variable secret now has the value of 'duper'.
-// Now we console log the variable secret.
+// Because code = 123, console.log(secret) will yield 'super' as its output.
 
 //CODE
 /*
@@ -76,6 +76,7 @@ console.log(secret)
 // If the variable isStudent is an exact match to the boolean false or the variable age is less than 30, 'What are your hobbies?' will be logged to the console. 
 // If the variable isStudent is an exact match to the boolean true, 'Welcome to Prime!' will be logged to the console.
 // If none of the above conditions are satisfied, 'How about the weather?' will be logged to the console.
+// Because isStudent = true, 'Welcome to Prime!' is logged to the console. 
 
 //CODE
 /*
